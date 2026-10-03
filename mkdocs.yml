@@ -1,0 +1,51 @@
+site_name: 小草文学部
+repo_url: https://github.com/bbez-kjxxb/grass
+repo_name: bbez-kjxxb/grass
+nav:
+  - 主页: index.md
+  - 参考材料: contents.md
+  - 内容:
+    - 未分类&信息缺失: 
+      - 信息: lost/lost.md
+    - 2026年:
+      - 9月:
+        - 第一期: 2026/lg/26-1-lg.md
+        - 第二期: 2026/lg/26-2-lg.md
+  - 联系我们: connect.md
+theme:
+  name: material
+  language : zh
+  favicon: icon/icon.png
+
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+
+    # Toggle light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Toggle dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+plugins:
+  - search:
+      separator: '[\s\-\.]+'  # 更好地切分中文和符号
+      lang: ['zh']
+      # 明确指定中文语言
+
+markdown_extensions:
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - attr_list
+  - admonition
