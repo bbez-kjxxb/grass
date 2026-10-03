@@ -15,7 +15,7 @@ nav:
 theme:
   name: material
   language : zh
-  favicon: icon/icon.png
+  favicon: icon/icon.webp
 
   icon:
     repo: fontawesome/brands/github

@@ -351,7 +351,7 @@
 
 ### 11.1 基础图片
 
-![图标](../../icon/icon.png "favicon")
+![图标](../../icon/icon.webp "favicon")
 
 ### 11.2 使用 HTML 控制图片尺寸和对齐
 
@@ -360,17 +360,17 @@
   配合 style="display:block; margin:auto;" 实现居中。
 -->
 
-<img src="../../icon/icon.png" alt="图标" width="80">
+<img src="../../icon/icon.webp" alt="图标" width="80">
 
 居中显示：
 
 <div style="text-align:center;">
-  <img src="../../icon/icon.png" alt="居中图标" width="100">
+  <img src="../../icon/icon.webp" alt="居中图标" width="100">
 </div>
 
 带边框和圆角的图片：
 
-<img src="../../icon/icon.png" alt="圆角图标" width="100" style="border-radius:50%; border:3px solid #4a90e2;">
+<img src="../../icon/icon.webp" alt="圆角图标" width="100" style="border-radius:50%; border:3px solid #4a90e2;">
 
 ### 11.3 图片作为链接
 
@@ -378,7 +378,7 @@
   将 ![图片](地址) 放在 [ ](链接) 中，点击图片即可跳转。
 -->
 
-[![点击跳转 GitHub](../../icon/icon.png)](https://github.com/bbez-kjxxb/grass)
+[![点击跳转 GitHub](../../icon/icon.webp)](https://github.com/bbez-kjxxb/grass)
 
 ---
 

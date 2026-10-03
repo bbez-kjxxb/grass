@@ -1,6 +1,6 @@
 # 欢迎访问 小草文学部 存档网站
 <div style="text-align:center;">
-  <img src="icon/icon.png" alt="居中图标" width="1000">
+  <img src="icon/icon-full.webp" alt="居中图标" width="1000">
 </div>
 该站用于存档小草文学部的报纸等内容
 
